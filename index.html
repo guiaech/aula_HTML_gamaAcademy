@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Página para exercícios HTML | Gama Academy</title>
 
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
 
-    <meta name="description" content="Texto descritivo da página web"/>
+    <meta name="description" content="Texto descritivo da página web" />
 
-    <meta name="author" content="Gama Academy"/>
+    <meta name="author" content="Gama Academy" />
 
     <meta nome="viewport" content="width=devive-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
 
-    <script type="text/javascript" src ="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
-    
+
     </script>
 
 </head>
+
 <body>
     <!--Cabeçalho-->
     <header>
 
-        <img src="logo1.jpg" alt="Logo da empresa" title="Logo da empresa"/>
+        <img src="logo1.jpg" alt="Logo da empresa" title="Logo da empresa" />
 
 
     </header>
@@ -31,102 +33,113 @@
 
     <!--Conteúdo principal-->
     <main>
-        <!--Títulos em HTML-->
-        <h1>Mr Boss</h1>
-        <p>A sua mais nova marca de sapatos masculinos, nossa marca foi feita para pessoas exigentes e que amam exclusividade</p>
+        <section>
+            <!--Títulos em HTML-->
+            <h1>Mr Boss</h1>
+
+            <p>A sua mais nova marca de sapatos masculinos, nossa marca foi feita para pessoas exigentes e que amam
+                exclusividade</p>
 
 
-        <h2>Sapatos</h2>
+            <h2>Sapatos</h2>
 
-        <img src="imagens/shoes1.jpg" alt="Shoes1" title="Shoes1" class="img-post"/>
-        <h3>Sapato 1</h3>
-        
-        <img src="imagens/shoes2.jpg" alt="Shoes2" title="Shoes2" class="img-post"/>
-        <h3>Sapato 2</h3>
-        
-        <img src="imagens/shoes3.jpg" alt="Shoes3" title="Shoes3" class="img-post"/>
-        <h3>Sapato 3</h3>
+            <div class="bloco-post" id="div1">
+                <img src="imagens/shoes1.jpg" alt="Shoes1" title="Shoes1" class="img-post" />
+                <h3>Sapato 1</h3>
+            </div>
 
-       <!--Tabela-->
-       <table>
-           <thead>
-               <tr>
-                   <th>Mês da atividade</th>
-                   <th>Nome da atividade</th>
-               </tr>
+            <div class="bloco-post" id="div2">
+                <img src="imagens/shoes2.jpg" alt="Shoes2" title="Shoes2" class="img-post" />
+                <h3>Sapato 2</h3>
+            </div>
 
-           </thead>
-           <tbody>
-               <tr>
-                   <td>Janeiro</td>
-                   <td>Lançamento</td>
-               </tr>
-               <tr>
-                <td>Fevereiro</td>
-                <td>Saldão do ano passado</td>
-            </tr>
+            <div class="bloco-post" id="div3">
+                <img src="imagens/shoes3.jpg" alt="Shoes3" title="Shoes3" class="img-post" />
+                <h3>Sapato 3</h3>
+            </div>
 
-           </tbody>
-           <tfoot>
-               <tr>
-                   <td>Total de atividades</td>
-                   <td>2 atividades</td>
-               </tr>
-
-           </tfoot>
+        </section>
 
 
+        <!--Tabela-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Mês da atividade</th>
+                    <th>Nome da atividade</th>
+                </tr>
 
-       </table>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>Lançamento</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>Saldão do ano passado</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total de atividades</td>
+                    <td>2 atividades</td>
+                </tr>
+
+            </tfoot>
 
 
-       <!--Lista desordenada-->
-       <ul type="circle">
-         <li>Sapatos</li>
-         <li>Sapatênis</li>
-       </ul>
 
-       <!--Lista ordenada-->
-       <ol start="1">
-           <li>Chinelos</li>
-           <li>Sapato social</li>
-       </ol>
+        </table>
 
-       <!--Lista de definição-->
-       <d1>
-           <dt>Mr Boss</dt>
-           <dd>É aquele que é chefe de sua vida</dd>
-       </d1>
 
-             <!--Links em HTML-->
-             <a href="https://google.com" title="Site do Google" target="_blank">
-                Link de pesquisa
-               </a>
-        
-               <p>
-                   Para efetuar uma pesquisa 
-                   <a href="https://google.com" target="_blank"
-                    title="clique aqui"> clique aqui!
-                
-                </a>
-               </p>
-        
-        
-               <a href="https://google.com" title="Site do Google" target="_blank">
-                 <img src="logoGoogle.png"/>
-               </a>
+        <!--Lista desordenada-->
+        <ul type="circle">
+            <li>Sapatos</li>
+            <li>Sapatênis</li>
+        </ul>
 
-       <!--Video-->
-       <video width="550" height="560" controls>
-           <source src="video1.mp4" type="video/mp4"/>
-       </video>
-    
+        <!--Lista ordenada-->
+        <ol start="1">
+            <li>Chinelos</li>
+            <li>Sapato social</li>
+        </ol>
+
+        <!--Lista de definição-->
+        <d1>
+            <dt>Mr Boss</dt>
+            <dd>É aquele que é chefe de sua vida</dd>
+        </d1>
+
+        <!--Links em HTML-->
+        <a href="https://google.com" title="Site do Google" target="_blank">
+            Link de pesquisa
+        </a>
+
+        <p>
+            Para efetuar uma pesquisa
+            <a href="https://google.com" target="_blank" title="clique aqui"> clique aqui!
+
+            </a>
+        </p>
+
+
+        <a href="https://google.com" title="Site do Google" target="_blank">
+            <img src="logoGoogle.png" />
+        </a>
+
+        <!--Video-->
+        <video width="550" height="560" controls>
+            <source src="video1.mp4" type="video/mp4" />
+        </video>
+
 
 
     </main>
     <!--Fim do conteúdo principal-->
 
-    
+
     <!--Rodapé-->
     <footer>
 
@@ -134,4 +147,5 @@
     </footer>
     <!--Fim do Rodapé-->
 </body>
+
 </html>
