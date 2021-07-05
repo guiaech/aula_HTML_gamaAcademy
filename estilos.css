@@ -1,3 +1,9 @@
 body{
     background: whitesmoke;
 }
+
+.bloco-post{background-color: green;}
+
+#div1{background-color: greenyellow;width: 60%;float: none;}
+#div2{background-color: grey;width: 60%;float: none;}
+#div3{background-color: hotpink;width: 60%;float: none;}
