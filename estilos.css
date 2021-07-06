@@ -6,22 +6,67 @@ body{
 .flex-div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
 }
 
 #div1{
-    width: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 #div2{
-    width: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 #div3{
-    width: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 .div-final{
     display: flex;
     justify-content: space-around;
+
+}
+
+
+
+#texto1{
+    font-size:xx-large;
+    font-family: monospace;
+}
+
+#banner{
+    width: 40%;
+}
+
+#formulario{
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+#tabela{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    color: blue;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
 }

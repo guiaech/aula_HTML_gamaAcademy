@@ -20,45 +20,48 @@
 </head>
 
 <body>
-    <!--Cabeçalho-->
-    <header role="banner">
-        <center>
+    <center>
+        <!--Cabeçalho-->
+        <div id="banner">
+
             <img src="imagens/logo1.jpg" alt="Logo da empresa" title="Logo da empresa" />
-
-        </center>
-
-    </header>
+        </div>
+    </center>
     <!--Fim do cabeçalho-->
 
     <!--Conteúdo principal-->
     <main role="main">
         <section>
             <center>
-                <!--Títulos em HTML-->
-                <h1>Mr Boss</h1>
+                <div id="texto1">
+                    <!--Títulos em HTML-->
+                    <h1>Mr Boss</h1>
 
-                <p>A sua mais nova marca de sapatos masculinos, nossa marca foi feita para pessoas exigentes e que amam
-                    exclusividade</p>
+                    <p>A sua mais nova marca de sapatos masculinos, nossa marca foi feita para pessoas exigentes e que
+                        amam
+                        exclusividade</p>
 
 
-                <h2>Sapatos</h2>
+                    <h2>Sapatos</h2>
+
+                </div>
 
             </center>
 
             <div class="flex-div">
                 <div id="div1">
                     <img src="imagens/shoes1.jpg" alt="Shoes1" title="Shoes1" class="img-post" />
-                    <h3>Sapato 1</h3>
+                    <h1>Sapato 1</h1>
                 </div>
 
                 <div id="div2">
                     <img src="imagens/shoes2.jpg" alt="Shoes2" title="Shoes2" class="img-post" />
-                    <h3>Sapato 2</h3>
+                    <h1>Sapato 2</h1>
                 </div>
 
                 <div id="div3">
                     <img src="imagens/shoes3.jpg" alt="Shoes3" title="Shoes3" class="img-post" />
-                    <h3>Sapato 3</h3>
+                    <h1>Sapato 3</h1>
                 </div>
 
             </div>
@@ -66,7 +69,8 @@
 
         </section>
 
-        <center>
+        <div id="formulario">
+
             <!--Formulario-->
             <form action="#" method="POST">
                 <label for="campo1">Nome</label>
@@ -86,6 +90,9 @@
 
 
 
+        </div>
+
+        <div id="tabela">
             <!--Tabela-->
             <table>
                 <thead>
@@ -117,20 +124,16 @@
 
 
             </table>
+        </div>
 
 
-
-
-            <!--Lista de definição-->
-            <d1>
-                <dt>Mr Boss</dt>
-                <dd>É aquele que é chefe de sua vida</dd>
-            </d1>
-
+        <div id="video">
             <video width="550" height="560" controls>
                 <source src="video1.mp4" type="video/mp4" />
             </video>
-        </center>
+        </div>
+ 
+
 
 
     </main>
