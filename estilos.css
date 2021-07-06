@@ -3,12 +3,20 @@ body{
 }
 
 
-div{
-    border: solid 2px red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#div1{
+    width: 50%;
+}
 
-#div1{background-color: greenyellow;width: 60%;float: none;}
-#div2{background-color: grey;width: 60%;float: none;}
-#div3{background-color: hotpink;width: 60%;float: none;}
+#div2{
+    width: 50%;
+}
+
+#div3{
+    width: 50%;
+}
