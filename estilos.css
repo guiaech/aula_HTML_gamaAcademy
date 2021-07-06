@@ -3,11 +3,6 @@ body{
 }
 
 
-.div-header{
-    justify-content: space-around;
-}
-
-
 .flex-div{
     display: flex;
     flex-wrap: wrap;
@@ -24,4 +19,9 @@ body{
 
 #div3{
     width: 50%;
+}
+
+.div-final{
+    display: flex;
+    justify-content: space-around;
 }
