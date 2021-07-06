@@ -3,6 +3,10 @@ body{
 }
 
 
+.div-header{
+    justify-content: space-around;
+}
+
 
 .flex-div{
     display: flex;
